@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LocalVideoActivity"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/back_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/slideshow_margin"
+        android:layout_marginLeft="@dimen/slideshow_margin"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/back_button_icon_size"
+            android:layout_height="@dimen/back_button_icon_size"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_button_selector" />
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="@string/real_local_video"
+            android:textColor="@drawable/back_button_text_selector"
+            android:textSize="@dimen/function_text_size" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_act_local_video"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/icon_bg_rounded_rectangle"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <ListView
+                android:visibility="visible"
+                android:id="@+id/lv_act_local_video"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scrollbars="none"
+                >
+            </ListView>
+
+            <RelativeLayout
+                android:id="@+id/rl_act_local_video"
+                android:layout_width="60dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                >
+
+                <ImageView
+                    android:visibility="visible"
+                    android:id="@+id/iv_act_local_video"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/selector_iv_arrow_left"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gv_act_local_video"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:numColumns="3"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:horizontalSpacing="20dp"
+            android:verticalSpacing="20dp"
+            android:fastScrollEnabled="true">
+        </GridView>
+
+    </LinearLayout>
+
+</LinearLayout>

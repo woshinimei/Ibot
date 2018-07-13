@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--说明： 1.本地、云端文件夹列表;本地及云端视频文件列表 共用布局
+    2. 如需修改，需要复制一份另外创建布局文件
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:background="@android:color/transparent"
+    >
+<!--android:background="@color/transparent"-->
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        >
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:background="@drawable/icon_folder"
+            />
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/image_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/media_item_selector" />
+
+        <ImageView
+            android:id="@+id/iv_video_play"
+            android:layout_width="@dimen/play_video_button_size"
+            android:layout_height="@dimen/play_video_button_size"
+            android:layout_centerInParent="true"
+            android:src="@drawable/video_play_button_selector"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:text=""
+        android:lines="2"
+        android:maxLines="2"
+        android:textSize="20sp"
+        android:textColor="@drawable/back_button_text_selector"
+        />
+
+</LinearLayout>

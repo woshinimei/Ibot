@@ -1,0 +1,533 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:2:1-261:12
+	package
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:9:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:11:22-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:12:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:14:5-72
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:14:22-69
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:15:22-81
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:19:22-73
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:21:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:26:5-89
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:26:22-86
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:28:5-68
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:28:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:29:5-74
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:29:22-71
+uses-feature#android.hardware.wifi.direct
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:34:5-36:35
+	android:required
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:36:9-32
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:35:9-52
+application
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:38:5-259:19
+MERGED from [code:library_AndroidPullToRefresh:unspecified] D:\android_project\IbotnCloudPlayer\code\library_AndroidPullToRefresh\build\intermediates\bundles\default\AndroidManifest.xml:11:5-20
+MERGED from [com.microsoft.aad:adal:1.1.7] C:\Users\Administrator\.android\build-cache\2159fa512f1c5a11ab324a96179a9ea26317321d\output\AndroidManifest.xml:11:5-16:19
+MERGED from [com.microsoft.services.msa:msa-auth:0.8.4] C:\Users\Administrator\.android\build-cache\b0e8b694874a1ab39588423d17849464861250a0\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.xiaweizi:RoundCornersView:v1.0] C:\Users\Administrator\.android\build-cache\52db2ba88ed45344e13f0836664566ff65775df6\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Administrator\.android\build-cache\87d74f8f849fc06874bedd3219507fb63d3e3414\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\Administrator\.android\build-cache\ceb9ed3b78951ae32f76fc48e7730bd861700194\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Administrator\.android\build-cache\833fba8cde58a271c295bec68dc7032749ba94c9\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Administrator\.android\build-cache\39633a7eb03882b45f097b267bddc128946b9d8b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:26:5-55:19
+	android:label
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:42:9-41
+	android:supportsRtl
+		ADDED from [com.github.xiaweizi:RoundCornersView:v1.0] C:\Users\Administrator\.android\build-cache\52db2ba88ed45344e13f0836664566ff65775df6\output\AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:40:9-35
+	android:icon
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:41:9-41
+	android:theme
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:43:9-52
+		REJECTED from [com.microsoft.aad:adal:1.1.7] C:\Users\Administrator\.android\build-cache\2159fa512f1c5a11ab324a96179a9ea26317321d\output\AndroidManifest.xml:13:9-40
+	tools:replace
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:44:9-38
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:39:9-38
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:47:9-49:64
+	android:value
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:49:13-61
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:48:13-52
+meta-data#com.amap.api.v2.apikey
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:52:9-54:64
+	android:value
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:54:13-61
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:53:13-50
+activity#com.infomax.ibotncloudplayer.MainActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:56:9-69:20
+	android:clearTaskOnLaunch
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:58:13-45
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:62:13-50
+	android:label
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:60:13-45
+	android:excludeFromRecents
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:59:13-46
+	android:launchMode
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:61:13-42
+	android:theme
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:57:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:64:13-68:29
+action#android.intent.action.MAIN
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:65:17-69
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:65:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:67:17-77
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:67:27-74
+activity#com.infomax.ibotncloudplayer.MultimediaListActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:70:9-78:47
+	android:clearTaskOnLaunch
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:72:13-45
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:77:13-50
+	android:label
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:75:13-48
+	android:excludeFromRecents
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:73:13-46
+	android:launchMode
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:76:13-42
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:74:13-36
+	android:theme
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:71:13-51
+activity#com.infomax.ibotncloudplayer.QQCloudPlayerActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:79:9-86:59
+	android:clearTaskOnLaunch
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:81:13-45
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:85:13-50
+	android:label
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:83:13-48
+	android:excludeFromRecents
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:82:13-46
+	android:launchMode
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:84:13-42
+	android:theme
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:86:13-56
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:80:13-50
+activity#com.infomax.ibotncloudplayer.activity.EducationContentActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:87:9-93:47
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:92:13-50
+	android:label
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:90:13-54
+	android:excludeFromRecents
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:89:13-46
+	android:launchMode
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:91:13-43
+	android:theme
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:93:13-44
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:88:13-62
+activity#com.infomax.ibotncloudplayer.activity.VideoActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:104:9-117:20
+	android:clearTaskOnLaunch
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:106:13-45
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:111:13-50
+	android:label
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:109:13-47
+	android:excludeFromRecents
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:107:13-46
+	android:launchMode
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:110:13-44
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:108:13-36
+	android:theme
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:105:13-51
+activity#com.infomax.ibotncloudplayer.activity.EcAudioActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:118:9-126:47
+	android:clearTaskOnLaunch
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:120:13-45
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:125:13-50
+	android:label
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:123:13-42
+	android:excludeFromRecents
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:121:13-46
+	android:launchMode
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:124:13-44
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:122:13-36
+	android:theme
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:126:13-44
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:119:13-53
+activity#com.wifidirect.WiFiDirectActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:127:9-129:45
+	android:launchMode
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:129:13-42
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:128:13-61
+activity#com.infomax.ibotncloudplayer.activity.GameActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:132:9-140:47
+	android:clearTaskOnLaunch
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:134:13-45
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:139:13-50
+	android:label
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:137:13-48
+	android:excludeFromRecents
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:135:13-46
+	android:launchMode
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:138:13-42
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:136:13-36
+	android:theme
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:140:13-44
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:133:13-50
+activity#com.infomax.ibotncloudplayer.growthalbum.AlbumListActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:142:9-144:53
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:144:13-50
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:143:13-58
+activity#com.infomax.ibotncloudplayer.growthalbum.PhotoListActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:145:9-147:53
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:147:13-50
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:146:13-58
+activity#com.infomax.ibotncloudplayer.growthalbum.GrowthAlbumHomeActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:148:9-150:53
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:150:13-50
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:149:13-64
+activity#com.infomax.ibotncloudplayer.growthalbum.ImagePagerActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:151:9-153:53
+	android:screenOrientation
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:153:13-50
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:152:13-59
+receiver#com.infomax.ibotncloudplayer.receiver.EncryptBroadcastReceiver
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:156:9-160:20
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:156:19-68
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:157:13-159:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:158:17-79
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:158:25-76
+receiver#com.infomax.ibotncloudplayer.receiver.IbotnBroadcastReceiver
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:161:9-198:20
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:161:19-66
+intent-filter#android.intent.action.MEDIA_SCANNER_STARTED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:165:13-169:29
+action#android.intent.action.MEDIA_SCANNER_STARTED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:166:17-86
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:166:25-83
+data
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:168:17-47
+	android:scheme
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:168:23-44
+intent-filter#android.intent.action.MEDIA_SCANNER_FINISHED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:170:13-174:29
+action#android.intent.action.MEDIA_SCANNER_FINISHED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:171:17-87
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:171:25-84
+intent-filter#android.intent.action.MEDIA_MOUNTED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:175:13-179:29
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:176:17-78
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:176:25-75
+intent-filter#android.intent.action.MEDIA_REMOVED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:180:13-184:29
+action#android.intent.action.MEDIA_REMOVED
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:181:17-78
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:181:25-75
+intent-filter#android.intent.action.MEDIA_BAD_REMOVAL
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:185:13-189:29
+action#android.intent.action.MEDIA_BAD_REMOVAL
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:186:17-82
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:186:25-79
+intent-filter#android.intent.action.MEDIA_EJECT
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:190:13-194:29
+action#android.intent.action.MEDIA_EJECT
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:191:17-76
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:191:25-73
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:195:13-197:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:196:17-79
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:196:25-76
+activity#com.infomax.ibotncloudplayer.activity.SettingActivity
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:200:9-202:39
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:202:13-36
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:201:13-53
+activity#com.infomax.ibotncloudplayer.activity.Activity_chinese_anim
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:203:9-205:39
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:205:13-36
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:204:13-59
+activity#com.infomax.ibotncloudplayer.activity.Activity_english_anim
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:206:9-208:39
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:208:13-36
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:207:13-59
+activity#com.infomax.ibotncloudplayer.activity.Activity_icon
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:209:9-211:39
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:211:13-36
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:210:13-51
+activity#com.infomax.ibotncloudplayer.activity.Activity_game_and_babyBus
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:212:9-214:39
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:214:13-36
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:213:13-63
+activity#com.infomax.ibotncloudplayer.activity.Activity_music
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:215:9-217:39
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:217:13-36
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:216:13-52
+activity#com.infomax.ibotncloudplayer.activity.Activity_otherApp
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:218:9-220:39
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:220:13-36
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:219:13-55
+activity#com.infomax.ibotncloudplayer.activity.Activity_camera
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:221:9-223:39
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:223:13-36
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:222:13-53
+activity#com.infomax.ibotncloudplayer.activity.Activity_album_video
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:224:9-226:39
+	android:exported
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:226:13-36
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:225:13-58
+activity#com.infomax.ibotncloudplayer.activity.ActivityVideoPlayer
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:227:9-66
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:227:19-63
+service#com.infomax.ibotncloudplayer.service.ChangeVideoEncryptService
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:229:9-70
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:229:18-67
+service#com.ysx.qqcloud.QQCloudInitService
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:230:9-70
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:230:18-67
+service#com.infomax.ibotncloudplayer.service.IbotnCoreService
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:231:9-61
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:231:18-58
+service#com.baidu.location.f
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:235:9-245:19
+	android:enabled
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:237:13-35
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:236:13-48
+service#com.amap.api.location.APSService
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:250:9-68
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:250:18-65
+service#com.wifidirect.FileTransferService
+ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:255:9-257:38
+	android:enabled
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:257:13-35
+	android:name
+		ADDED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml:256:13-62
+uses-sdk
+INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [code:library_AndroidPullToRefresh:unspecified] D:\android_project\IbotnCloudPlayer\code\library_AndroidPullToRefresh\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.onedrive.sdk:onedrive-sdk-android:1.3.1] C:\Users\Administrator\.android\build-cache\da08688df51eacceda092feaa62a0c55270c3ab6\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.aad:adal:1.1.7] C:\Users\Administrator\.android\build-cache\2159fa512f1c5a11ab324a96179a9ea26317321d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.services.msa:msa-auth:0.8.4] C:\Users\Administrator\.android\build-cache\b0e8b694874a1ab39588423d17849464861250a0\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:okhttputils:2.6.2] C:\Users\Administrator\.android\build-cache\b08d9b2aa71d1e27dc3e8063c823172fdd91a43e\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:23.2.1] C:\Users\Administrator\.android\build-cache\e3a887f2e0b3d3b31d93536f870549a6a977fb67\output\AndroidManifest.xml:20:5-43
+MERGED from [com.github.xiaweizi:RoundCornersView:v1.0] C:\Users\Administrator\.android\build-cache\52db2ba88ed45344e13f0836664566ff65775df6\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Administrator\.android\build-cache\87d74f8f849fc06874bedd3219507fb63d3e3414\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\Administrator\.android\build-cache\ceb9ed3b78951ae32f76fc48e7730bd861700194\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Administrator\.android\build-cache\833fba8cde58a271c295bec68dc7032749ba94c9\output\AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.fresco:fresco:0.12.0] C:\Users\Administrator\.android\build-cache\3e68470ffd359e67e2af568b63a1c027f910b1f0\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.12.0] C:\Users\Administrator\.android\build-cache\fa1aacb4b2f25fd7a2664a99eef50df26dd5f64a\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.12.0] C:\Users\Administrator\.android\build-cache\938a56006776c53030b092d5b927b99005763a35\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.12.0] C:\Users\Administrator\.android\build-cache\033211c3d780becaaf87084a27155bbf37e10fcf\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Administrator\.android\build-cache\39633a7eb03882b45f097b267bddc128946b9d8b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.12.0] C:\Users\Administrator\.android\build-cache\01bfa30ee8a2a1cc502b7ba7a436c4ad3ce6c5b8\output\AndroidManifest.xml:5:5-7:41
+MERGED from [me.relex:photodraweeview:1.1.2] C:\Users\Administrator\.android\build-cache\95566f4f77391fb3b9a36bc7e0c2263c72f01e99\output\AndroidManifest.xml:8:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Administrator\.android\build-cache\87d74f8f849fc06874bedd3219507fb63d3e3414\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_project\IbotnCloudPlayer\code\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.onedrive.sdk:onedrive-sdk-android:1.3.1] C:\Users\Administrator\.android\build-cache\da08688df51eacceda092feaa62a0c55270c3ab6\output\AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from [com.onedrive.sdk:onedrive-sdk-android:1.3.1] C:\Users\Administrator\.android\build-cache\da08688df51eacceda092feaa62a0c55270c3ab6\output\AndroidManifest.xml:11:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.onedrive.sdk:onedrive-sdk-android:1.3.1] C:\Users\Administrator\.android\build-cache\da08688df51eacceda092feaa62a0c55270c3ab6\output\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from [com.onedrive.sdk:onedrive-sdk-android:1.3.1] C:\Users\Administrator\.android\build-cache\da08688df51eacceda092feaa62a0c55270c3ab6\output\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [com.onedrive.sdk:onedrive-sdk-android:1.3.1] C:\Users\Administrator\.android\build-cache\da08688df51eacceda092feaa62a0c55270c3ab6\output\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from [com.onedrive.sdk:onedrive-sdk-android:1.3.1] C:\Users\Administrator\.android\build-cache\da08688df51eacceda092feaa62a0c55270c3ab6\output\AndroidManifest.xml:13:22-71
+activity#com.microsoft.aad.adal.AuthenticationActivity
+ADDED from [com.microsoft.aad:adal:1.1.7] C:\Users\Administrator\.android\build-cache\2159fa512f1c5a11ab324a96179a9ea26317321d\output\AndroidManifest.xml:14:9-15:20
+	android:name
+		ADDED from [com.microsoft.aad:adal:1.1.7] C:\Users\Administrator\.android\build-cache\2159fa512f1c5a11ab324a96179a9ea26317321d\output\AndroidManifest.xml:14:19-79
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:27:9-30:45
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:29:13-36
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:30:13-42
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:31:9-33:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:32:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:35:9-47:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:37:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:39:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:38:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:41:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:40:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:36:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:48:9-54:68
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:50:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:52:13-82
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:51:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:54:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:53:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\AndroidManifest.xml:49:13-93

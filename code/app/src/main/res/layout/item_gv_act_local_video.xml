@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    >
+<!--android:background="@color/transparent"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/image_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/media_item_selector" />
+
+        <ImageView
+            android:id="@+id/iv_video_play"
+            android:layout_width="@dimen/play_video_button_size"
+            android:layout_height="@dimen/play_video_button_size"
+            android:layout_centerInParent="true"
+            android:src="@drawable/video_play_button_selector"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text=""
+        android:lines="2"
+        android:maxLines="2"
+        android:textSize="20sp"
+        android:textColor="@drawable/back_button_text_selector"
+        />
+
+</LinearLayout>

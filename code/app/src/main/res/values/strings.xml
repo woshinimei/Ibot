@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- -->
+    <string name="app_name">ibotncloudplayer</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="action_exit">Exit Player</string>
+
+    <!-- special symbol Start -->
+    <string name="symbol_slash" translatable="false">&#047;</string>
+    <string name="null_str" translatable="false"></string>
+    <!-- special symbol End -->
+
+    <string name="video_ori">Original</string>
+    <string name="video_sd">SD</string>
+    <string name="video_hd">HD</string>
+
+    <string name="media_title">Grow-up Center</string>
+    <string name="local_photo">Grow-up Photos</string>
+    <string name="local_video">Grow-up Videos</string>
+    <string name="real_local_video">Local Videos</string>
+    <string name="education_dontent">Education Content</string>
+    <string name="cloud_video">Online Videos</string>
+    <string name="intelligence_game">Intelligence Game</string>
+    <string name="text_game_wawalu">wawalu</string>
+    <string name="text_my_u_disk">My U disk</string>
+    <string name="browser">Browser</string>
+
+    <string name="login">Login</string>
+
+    <string name="upload">Upload</string>
+    <string name="confirm_deleting_message">Remove Selected Items?</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="network_error">no network, check it</string>
+    <string name="text_version">version：</string>
+    <string name="text_toggle_auto_upload_photo_for_voice_photo">Automatic upload switch after the completion of voice capture：</string>
+    <string name="text_unauto_upload_photo_for_voice_photo">Can not automatically upload [photo of voice take photo ]</string>
+    <string name="text_auto_upload_photo_for_voice_photo">After that step,you Can automatically upload [photo of voice take photo ]</string>
+    <string name="ok">Confirm</string>
+    <string name="text_input_password_with_question">Please enter 【123456 + 0 =?】 Correct arithmetic result</string>
+    <string name="text_system_file_initing">System File Initing...</string>
+    <string name="text_tip_install_wawalu">please install the game of wawalu</string>
+    <string name="text_tip_can_not_file_file">Cannot find this file</string>
+    <string name="network_can_not_use">Network can not be use</string>
+    <!-- -->
+
+    <!--视频相关*******-->
+    <string name="text_folder">Preschool education</string>
+    <string name="text_video">Videos</string>
+    <string name="text_no_data">Current No Data</string>
+    <string name="text_tip_check_sd">Please Check SD Card</string>
+    <string name="text_list">List</string>
+    <string name="text_palace">Palace</string>
+    <string name="text_local">Local</string>
+    <string name="text_cloud">Cloud</string>
+    <string name="text_watch_history">Play History</string>
+    <string name="text_loading">Loading</string>
+    <string name="text_server_bus">Server Busy,Try Later</string>
+    <string name="text_no_data_more">No More Data</string>
+    <string name="text_pull_load_more">Pull Up Load More Data</string>
+    <string name="text_pull_release">Release To Load</string>
+    <string name="net_unconnected_to_check">net unconnected，to check it</string>
+    <string name="click_too_fast">it is too fast that you click</string>
+    <!--视频相关******* end -->
+    <!--音频相关 start-->
+    <string name="audio">Music</string>
+    <string name="tip_audio_player_disable">audio player is disabled ,please start it in setting,now will use video player</string>
+    <string name="tip_video_player_disable">video player is disabled ,please start it in setting ,or install player</string>
+    <string name="tip_swf_player_disable">flash player is disabled ,please start it in setting ,or install player</string>
+    <string name="tip_player_disable">player is disabled ,please start it in setting ,or install player</string>
+    <string name="tip_no_audio">Audio File Un Exist</string>
+    <!--音频相关 end-->
+    <!--成长视频，成长照片-->
+    <string name="tip_no_selected_upload_file_select_first">No Selected Upload File</string>
+    <string name="tip_please_longclick_file_select_first">Please select file first with long click file</string>
+    <string name="tip_upload_success">Upload Success</string>
+    <string name="tip_upload_failure">Upload Failure</string>
+    <string name="tip_upload_progress">Upload Progress</string>
+    <string name="tip_upload_file_already_exists">File Already Exists</string>
+    <string name="tip_login_onedrive">Login OneDrive</string>
+    <string name="tip_logined_onedrive">Logined OneDrive</string>
+    <string name="tip_to_main_view_login_onedrive">Please Return To 【Grow-up Center】 Main Interface To Login OneDrive</string>
+    <string name="tip_use_your_onedrive_account_to_login_and_cofig_on_computer">Please use your OneDrive account to login on to the computer (Microsoft OneDrive), according to the prompts to set the account storage space configuration</string>
+    <string name="tip_file_error_unupload">file error,can not upload</string>
+    <string name="tip_take_photo_by_voice">Please Take Photo By Voice(For Example:Take Photo)</string>
+    <string name="tip_record_video_by_voice">Please Record Video By Voice(For Example:Start Record Video)</string>
+    <string name="tip_file_in_transmission_try_later">File in transmission,try later</string>
+    <!--成长视频，成长照片 end-->
+
+    <!--wifidirect start-->
+    <string name="enable_p2p_button">P2P On/Off</string>
+    <string name="discover_peers_button">Discover</string>
+    <string name="connect_peer_button">Connect</string>
+    <string name="disconnect_peer_button">Disconnect</string>
+    <string name="get_file_button">Launch Gallery</string>
+    <string name="empty"></string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string>
+    <string name="empty_message">No devices found. Turn on P2P and perform discovery from the Action Bar</string>
+    <string name="p2p_off_warning">Enable P2P from action bar button above or system settings</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="label_me">ME</string>
+    <string name="label_peers">PEERS</string>
+    <string name="wifi_direct_transfer">Wifi Direct Transfer</string>
+    <string name="option">Option</string>
+    <string name="transfer_complete">Transfer Complete</string>
+    <string name="transfer_fail">Transfer Fail</string>
+    <string name="please_connection_wifi">Please Connection Wifi</string>
+    <string name="scanning">Scanning</string>
+    <string name="connecting">Connecting</string>
+    <string name="connecting_to">Connecting to</string>
+    <string name="please_peer_click_discovery">Please Peer Click [Discovery]</string>
+    <string name="wifi_state_connected">Connected</string>
+    <string name="wifi_state_invited">Invited</string>
+    <string name="wifi_state_failed">Failed</string>
+    <string name="wifi_state_available">Available</string>
+    <string name="wifi_state_unavailable">Unavailable</string>
+    <string name="wifi_state_unknown">Unknown</string>
+    <string name="wifi_tip">Tip:\n  1.Ensure that the machine and the mobile ibotn client connect to the same WiFi network.\n  2.At present, only the host sends files to the mobile client, which requires the host to actively connect to the mobile terminal\n  3.If the machine has been established with a mobile terminal ibotn connection, only after disconnection, you can connect with another mobile client, otherwise there may be confusion abnormalities, resulting in unable to transfer files</string>
+    <!--wifidirect end-->
+    <!---->
+    <string name="growth_record">growth record</string>
+    <string name="qiyi_video">Animation House</string>
+    <string name="game">game</string>
+    <string name="chinese_anim">chinese_animtion</string>
+    <string name="babybus">babybus</string>
+    <string name="english_anim">english_animtion</string>
+    <string name="angry_brid">Angry bird</string>
+    <string name="babybus_oganized">babybus oganized</string>
+    <string name="babybus_bathing">babybus bathing</string>
+    <string name="babybus_chef">babybus chef</string>
+    <string name="babybus_number">babybus number</string>
+    <string name="babybus_babyhospital">babybus babyhospital</string>
+    <!---->
+    <!--Begin Ibotn jinlong.zou-->
+    <string name="qr_scan">Scan the reading</string>
+    <!--End Ibotn jinlong.zou-->
+    <!--Begin jinlong.zou-->
+    <string name="growthalbum">Grow-up Photos</string>
+    <string name="unlabeled">Unmarked</string>
+    <string name="labeled">Marked</string>
+    <string name="label">Mark</string>
+    <string name="cancel_label">Unmark</string>
+    <string name="edit">Edit</string>
+    <string name="cancel_edit">Cancel edit</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="loading">Loading</string>
+    <string name="save_picture">Save image</string>
+    <string name="save_picture_path">The photo has been saved to :</string>
+    <string name="smart_growthalbum">Smart album</string>
+    <!--End jinlong.zou-->
+
+    <!-- 新UI图标名称6月6日 -->
+    <string name="icon_list_baby_bus">baby_bus</string>
+    <string name="icon_list_game">programming_game</string>
+    <string name="icon_list_scene_study">scene_study</string>
+    <string name="icon_list_grow_album">grow_album</string>
+    <string name="icon_list_tradition_culture">traditional_culture</string>
+    <string name="icon_list_visitor_pattern">visitor_pattern</string>
+    <string name="icon_list_follow_me">follow_me</string>
+    <string name="icon_list_chinese_story">chinese_story</string>
+    <string name="icon_list_chinese_anim">chinese_anim</string>
+    <string name="icon_list_picturebook_story">picturebook_story</string>
+    <string name="icon_list_oral_practice">oral_practice</string>
+    <string name="icon_list_message_remind">message_remind</string>
+    <string name="icon_list_riddle">riddle</string>
+    <string name="icon_list_other_app">other_app</string>
+    <string name="icon_list_music">music</string>
+    <string name="icon_list_face_sign">face_sign</string>
+    <string name="icon_list_face_recognition">face_recognition</string>
+    <string name="icon_list_scan_read">scan_read</string>
+    <string name="icon_list_video_call">video_call</string>
+    <string name="icon_list_setting_system">setting_system</string>
+    <string name="icon_list_camera">camera</string>
+    <string name="icon_list_english_childsong">english_childsong</string>
+    <string name="icon_list_english_anim">english_anim</string>
+    <string name="icon_list_english_story">english_story</string>
+    <string name="icon_list_setting_app">setting_app</string>
+    <string name="icon_list_online_service">online_service</string>
+    <string name="icon_list_online_classroom">online_classroom</string>
+    <string name="icon_list_smart_remind">smart_remind</string>
+    <string name="icon_list_chinese_song">chinese_song</string>
+    <string name="icon_list_video">video</string>
+    <string name="icon_list_album">album</string>
+    <string name="icon_list_del">delete</string>
+    <string name="icon_list_select">selectAll</string>
+</resources>

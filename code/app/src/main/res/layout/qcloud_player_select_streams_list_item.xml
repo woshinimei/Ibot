@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/qcloud_player_stream_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/player_setting_icon_size"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/player_media_controller_text_size"/>
+</LinearLayout>

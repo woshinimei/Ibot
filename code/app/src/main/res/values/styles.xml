@@ -1,0 +1,98 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+
+    </style>
+
+    <style name="animation_translucent_translate" parent="@android:style/Animation.Translucent">
+        <item name="android:windowEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:windowExitAnimation">@anim/activity_close_exit</item>
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_bg</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_btn</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/scrollbar_btn</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <style name="AppTheme_Translucent" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/black</item>　
+        　　
+        <item name="android:windowAnimationStyle">@style/animation_translucent_translate</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_bg</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_btn</item>
+        <item name="android:scrollbarSize">12dp</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/scrollbar_btn</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <style name="textTitle">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="btnTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:background">@drawable/title_right_btn_selector</item>
+    </style>
+    <!--activity_local_video 中TextView控件样式-->
+    <style name="styleTVActLocalVideo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_text_tv</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+    <!--对话框样式，无标题，白底，四个边圆角-->
+    <style name="Theme_MyDialog_Shape_White_Fillet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/shape_white_fillet</item>
+    </style>
+
+    <!--对话框样式,背景不透明-->
+    <style name="Theme_MyDialog_Shape_bg_opaque_Fillet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <!-- dialog背景样式 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景不透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+    <!--对话框样式,背景透明-->
+    <style name="Theme_MyDialog_Shape_Transparent_Fillet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <!-- dialog背景样式 -->
+        <item name="android:windowBackground"><!--@color/color_common_pale_green03-->
+            @android:color/transparent
+        </item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+    <!-- 自定义 弹出窗dialog -->
+    <style name="music_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:focusable="true"
+    android:keepScreenOn="true" >
+
+    <com.google.android.exoplayer.AspectRatioFrameLayout
+        android:id="@+id/video_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+
+        <SurfaceView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+    </com.google.android.exoplayer.AspectRatioFrameLayout>
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/player_media_controller_height"
+        android:background="#CC000000"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/title_icon_1"
+            android:layout_width="@dimen/player_media_controller_icon_size"
+            android:layout_height="@dimen/player_media_controller_icon_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="18dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/title_icon_2"
+            android:layout_width="@dimen/player_media_controller_icon_size"
+            android:layout_height="@dimen/player_media_controller_icon_size"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:visibility="gone"/>
+        <ImageButton
+            android:id="@+id/title_icon_3"
+            android:layout_width="@dimen/player_media_controller_icon_size"
+            android:layout_height="@dimen/player_media_controller_icon_size"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="32dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/qcloud_player_settings_container"
+        android:layout_width="@dimen/player_setting_container_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="#80000000"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="@dimen/player_setting_icon_size"
+                android:layout_height="@dimen/player_setting_icon_size"
+                android:src="@drawable/qcloud_player_icon_audio_vol_mute"/>
+            <SeekBar
+                android:id="@+id/qcloud_player_volume_controller"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/player_setting_seekbar_width"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="@dimen/player_setting_icon_size"
+                android:layout_height="@dimen/player_setting_icon_size"
+                android:src="@drawable/qcloud_player_icon_audio_vol"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qcloud_player_brightness_controller_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="@dimen/player_setting_icon_size"
+                android:layout_height="@dimen/player_setting_icon_size"
+                android:padding="5dp"
+                android:src="@drawable/qcloud_player_icon_brightness"/>
+            <SeekBar
+                android:id="@+id/qcloud_player_brightness_controller"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/player_setting_seekbar_width"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="@dimen/player_setting_icon_size"
+                android:layout_height="@dimen/player_setting_icon_size"
+                android:src="@drawable/qcloud_player_icon_brightness"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/player_media_controller_height"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center_vertical|right"
+            android:text="@string/action_exit"
+            android:textColor="@drawable/exit_play_text_selector"
+            android:textSize="@dimen/exit_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/qcloud_player_select_stream_container"
+        android:layout_width="@dimen/player_videosource_container_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:gravity="center_vertical"
+        android:background="#80000000"
+        android:visibility="gone">
+        <ListView
+            android:id="@+id/qcloud_player_select_streams_list"
+            android:layout_width="@dimen/player_videosource_container_width"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/adjust_display_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/adjust_display_width"
+            android:layout_height="@dimen/adjust_display_height"
+            android:layout_centerInParent="true"
+            android:background="#80000000" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/current_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/adjust_display_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/symbol_slash"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/adjust_display_text_size" />
+
+                <TextView
+                    android:id="@+id/total_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/adjust_display_text_size" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

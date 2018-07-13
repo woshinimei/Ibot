@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MultimediaListActivity">
+
+    <ImageView
+        android:id="@+id/iv_fullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:scaleType="fitCenter"
+        android:src="@color/transparent"
+        android:visibility="gone" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_fullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/back_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/slideshow_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/back_button_icon_size"
+            android:layout_height="@dimen/back_button_icon_size"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_button_selector" />
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="@string/media_title"
+            android:textColor="@drawable/back_button_text_selector"
+            android:textSize="@dimen/function_text_size" />
+
+    </LinearLayout>
+
+    <!--android:layout_toLeftOf="@+id/upload_continer"-->
+    <TextView
+        android:id="@+id/tv_option"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_80"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/dp_20"
+        android:gravity="center"
+        android:text="@string/option"
+        android:textColor="@drawable/back_button_text_selector"
+        android:textSize="@dimen/sp_26" />
+
+    <LinearLayout
+        android:id="@+id/upload_continer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/slideshow_margin"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_upload"
+            android:layout_width="@dimen/back_button_icon_size"
+            android:layout_height="@dimen/back_button_icon_size"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/upload_button_selector" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="@string/upload"
+            android:textColor="@drawable/back_button_text_selector"
+            android:textSize="@dimen/sp_26" />
+
+    </LinearLayout>
+
+    <ListView
+
+        android:id="@+id/listView_file"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_option"
+        android:layout_centerInParent="true"
+        android:scrollbars="none"></ListView>
+
+    <com.infomax.ibotncloudplayer.MGridView
+        android:id="@+id/gv_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_option"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:horizontalSpacing="20dp"
+        android:numColumns="4"
+        android:padding="10dp"
+        android:verticalSpacing="20dp">
+
+    </com.infomax.ibotncloudplayer.MGridView>
+
+    <ProgressBar
+        android:id="@+id/pbar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:maxHeight="15dp"
+        android:minHeight="10dp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_button_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bottom_bar_background"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/empty_item"
+            android:layout_width="@dimen/activity_horizontal_margin"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tv_delete"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/empty_item"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_button_selector" />
+
+        <ImageView
+            android:id="@+id/iv_selectall"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/empty_item"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10"
+            android:scaleType="fitCenter"
+            android:src="@drawable/selectall_button_selector" />
+
+    </RelativeLayout>
+
+    <!--添加附加布局，如没有数据时显示-->
+    <RelativeLayout
+        android:id="@+id/rl_additional_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_additional_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/default_ibotn"
+            android:gravity="center"
+            android:text="@string/text_no_data"
+            android:textColor="@color/color_common_pale_blue"
+            android:textSize="@dimen/sp_24" />
+    </RelativeLayout>
+
+    <com.infomax.ibotncloudplayer.view.ScrollSlidingBlock
+        android:id="@+id/scroll_block"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_100"
+        android:visibility="gone"
+        app:imgHeight="@dimen/dp_100"
+        app:imgRes="@drawable/media_scrollbar_thumb"
+        app:imgWidth="@dimen/dp_30" />
+</RelativeLayout>

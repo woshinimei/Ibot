@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="media_item_bg_pressed">#aa2298cb</color>
+    
+    <!-- new UI -->
+    <color name="back_button_text_color_normal">#ff0fb4e7</color>
+    <color name="back_button_text_color_pressed">#898989</color>
+    <color name="gray">#595757</color>
+    <color name="light_gray">#898989</color>
+    <color name="bottom_bar_background">#CCEFEFEF</color>
+    <color name="remove_button_color">#FFFF0F00</color>
+    <!--video-->
+    <color name="color_rb_normal">#FF9FA0A0</color>
+    <!--浅蓝色 按下-->
+    <color name="color_rb_press">#FF00AFE8</color>
+    <!-- 浅红色 -->
+    <color name="color_common_pale_red">#FFC0CB</color>
+    <!-- 浅绿色 -->
+    <color name="color_common_pale_greenDD">#DD66CDAA</color>
+
+    <!--浅蓝色-->
+    <color name="color_common_pale_blue">#FF00AFE8</color>
+    <!-- 浅绿色 02 -->
+    <color name="color_common_pale_green">#5566CDAA</color>
+    <!-- 浅绿色 03 -->
+    <color name="color_common_pale_green03">#1000FF00</color>
+    <!-- pale_black -->
+    <color name="color_common_pale_black">#23000000</color>
+
+    <color name="status_bar_color">#FF000000</color>
+    <color name="layout_border_color">#FF111111</color>
+
+    <!--Begin jinlong.zou-->
+    <color name="green_bg">#00a0e9</color>
+    <color name="transparent_white">#7FFFFFFF</color>
+    <color name="green_text_color">#00a0e9</color>
+    <color name="green_text_color_transparent">#7f00a0e9</color>
+    <color name="colorBtnText">#FFFFFF</color>
+    <color name="red_bg_color">#e31212</color>
+    <!--End jinlong.zou-->
+</resources>

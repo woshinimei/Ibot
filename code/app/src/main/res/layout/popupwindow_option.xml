@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dp_16"
+    android:background="@drawable/shape_white_fillet"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/upload"
+        android:textColor="@drawable/back_button_text_selector"
+        android:textSize="@dimen/sp_26" />
+    <TextView
+        android:id="@+id/tv_wifi_direct"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/wifi_direct_transfer"
+        android:textColor="@drawable/back_button_text_selector"
+        android:textSize="@dimen/function_text_size" />
+
+</LinearLayout>

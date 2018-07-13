@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/bg_title" >
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:contentDescription="@string/app_name"
+        android:onClick="onTitleClick"
+        android:padding="5dp"
+        android:src="@drawable/back_selector" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/textTitle"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/app_name" />
+
+    <Button
+        android:id="@+id/info"
+        style="@style/btnTheme"
+        android:background="@drawable/title_right_btn_selector"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:minWidth="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:text="@string/login" />
+
+</RelativeLayout>

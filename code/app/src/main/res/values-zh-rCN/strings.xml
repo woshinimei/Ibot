@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- -->
+    <string name="app_name">ibotncloudplayer</string>
+    <string name="action_exit">退出播放器</string>
+
+    <string name="video_ori">原始</string>
+    <string name="video_sd">标清</string>
+    <string name="video_hd">高清</string>
+
+    <string name="media_title">成长中心</string>
+    <string name="local_photo">成长相册</string>
+    <string name="local_video">成长视频</string>
+    <string name="real_local_video">本地视频</string>
+    <string name="education_dontent">教育内容</string>
+    <string name="cloud_video">在线视频</string>
+    <string name="intelligence_game">编程游戏</string>
+    <string name="text_game_wawalu">娃娃路</string>
+    <string name="text_my_u_disk">我的U盘</string>
+    <string name="browser">浏览器</string>
+
+    <string name="login">登陆</string>
+
+    <string name="upload">上传</string>
+    <string name="confirm_deleting_message">是否删除选取内容?</string>
+    <string name="cancel">取消</string>
+    <string name="remove">删除</string>
+    <string name="network_error">没有网络，请检查网络</string>
+    <string name="text_version">版本号：</string>
+    <string name="text_toggle_auto_upload_photo_for_voice_photo">语音拍照完成后自动上传开关：</string>
+    <string name="text_unauto_upload_photo_for_voice_photo">不能自动上传【语音拍照的照片】</string>
+    <string name="text_auto_upload_photo_for_voice_photo">才能自动上传【语音拍照的照片】</string>
+    <string name="ok">确认</string>
+    <string name="text_input_password_with_question">请输入【123456 + 0 = ？】正确算术运算结果</string>
+    <string name="text_system_file_initing">系统文件初始化中...</string>
+    <string name="text_tip_install_wawalu">请安装娃娃路</string>
+    <string name="text_tip_can_not_file_file">找不到文件</string>
+    <string name="network_can_not_use">网络不可用</string>
+    <!-- -->
+    <!--视频相关******* start-->
+    <string name="text_folder">幼儿教育</string>
+    <string name="text_video">视频</string>
+    <string name="text_no_data">当前没有数据</string>
+    <string name="text_tip_check_sd">请检查sd卡</string>
+    <string name="text_list">列表</string>
+    <string name="text_palace">宫格</string>
+    <string name="text_local">本地</string>
+    <string name="text_cloud">云端</string>
+    <string name="text_watch_history">播放记录</string>
+    <string name="text_loading">努力加载中</string>
+    <string name="text_server_bus">服务器忙,请稍后重试</string>
+    <string name="text_no_data_more">没有更多数据了</string>
+    <string name="text_pull_load_more">上拉加载更多</string>
+    <string name="text_pull_release">松手加载</string>
+    <string name="net_unconnected_to_check">网络不可用，请检查网络</string>
+    <string name="click_too_fast">点击太快了</string>
+
+    <!--视频相关******* end -->
+    <!--音频相关 start-->
+    <string name="audio">音乐</string>
+    <string name="tip_audio_player_disable">音乐播放器不可用【请先进入设置-应用程序管理开启】;本次播放将使用视频播放器</string>
+    <string name="tip_video_player_disable">视频播放器不可用【请先进入设置-应用程序管理开启或安装播放器】</string>
+    <string name="tip_swf_player_disable">Flash播放器不可用【请先进入设置-应用程序管理开启或安装播放器】</string>
+    <string name="tip_player_disable">播放器不可用【请先进入设置-应用程序管理开启或安装播放器】</string>
+    <string name="tip_no_audio">音乐文件不存在</string>
+    <!--音频相关 end-->
+    <!--成长视频，成长照片-->
+    <string name="tip_no_selected_upload_file_select_first">没有选择要上传的文件(请长按文件选择后再上传)</string>
+    <string name="tip_please_longclick_file_select_first">请先长按文件选择</string>
+    <string name="tip_upload_success">上传成功</string>
+    <string name="tip_upload_failure">上传失败</string>
+    <string name="tip_upload_progress">上传进度</string>
+    <string name="tip_upload_file_already_exists">文件已经上传过</string>
+    <string name="tip_login_onedrive">登录OneDrive</string>
+    <string name="tip_logined_onedrive">已登录OneDrive</string>
+    <string name="tip_to_main_view_login_onedrive">请先回到【成长中心】主界面登录OneDrive</string>
+    <string name="tip_use_your_onedrive_account_to_login_and_cofig_on_computer">请使用您的OneDrive账户在电脑端登录【微软OneDrive】，根据提示设置账户存储空间相关配置</string>
+    <string name="tip_file_error_unupload">文件异常,不能上传</string>
+    <string name="tip_take_photo_by_voice">请先通过语音命令拍照(如:拍照)</string>
+    <string name="tip_record_video_by_voice">请先通过语音命令录像(如:开始录像)</string>
+    <string name="tip_file_in_transmission_try_later">文件在传输中,请稍后重试</string>
+    <!--成长视频，成长照片 end-->
+
+    <!--wifidirect start-->
+    <string name="enable_p2p_button">P2P On/Off</string>
+    <string name="discover_peers_button">发现</string>
+    <string name="connect_peer_button">连接</string>
+    <string name="disconnect_peer_button">断开连接</string>
+    <string name="get_file_button">Launch Gallery</string>
+    <string name="empty"></string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string>
+    <string name="empty_message">没有设备，点击【发现】扫描设备</string>
+    <string name="p2p_off_warning">Enable P2P from action bar button above or system settings</string>
+    <string name="group_owner_text">"当前是服务端? "</string>
+    <string name="label_me">我</string>
+    <string name="label_peers">对方</string>
+
+    <string name="wifi_direct_transfer">wifi直传</string>
+    <string name="option">选项</string>
+    <string name="transfer_complete">传输完成</string>
+    <string name="transfer_fail">传输失败</string>
+    <string name="please_connection_wifi">请连接WIFI</string>
+    <string name="scanning">扫描中</string>
+    <string name="connecting">连接中</string>
+    <string name="connecting_to">连接到</string>
+    <string name="please_peer_click_discovery">请对方点击[发现]</string>
+    <string name="wifi_state_connected">已连接</string>
+    <string name="wifi_state_invited">邀请</string>
+    <string name="wifi_state_failed">失败</string>
+    <string name="wifi_state_available">可用</string>
+    <string name="wifi_state_unavailable">不可用</string>
+    <string name="wifi_state_unknown">未知</string>
+    <string name="wifi_tip">提示:\n  1.确保本机与手机ibotn客户端连接到同一个wifi网络\n  2.目前只提供主机端发送文件到手机客户端，需要主机端主动连接手机端;\n  3.如果本机已经与一个手机端ibotn建立连接，只有断开后，才可以与另外手机客户端建立连接，否则可能会有错乱异常发生，导致无法传输文件</string>
+    <!--wifidirect end-->
+    <!---->
+    <string name="growth_record">成长记录</string>
+    <string name="qiyi_video">动画屋</string>
+    <string name="game">游戏</string>
+    <string name="chinese_anim">汉语动画</string>
+    <string name="english_anim">英语动画</string>
+    <string name="angry_brid">愤怒的小鸟</string>
+    <string name="babybus_oganized">宝宝爱整理</string>
+    <string name="babybus_bathing">宝宝爱洗澡</string>
+    <string name="babybus_chef">宝宝小厨房</string>
+    <string name="babybus_number">宝宝学数学</string>
+    <string name="babybus_babyhospital">宝宝医院</string>
+    <string name="babybus">宝宝巴士</string>
+    <!---->
+    <!--Begin Ibotn jinlong.zou-->
+    <string name="qr_scan">扫描阅读</string>
+    <!--End Ibotn jinlong.zou-->
+    <!--Begin jinlong.zou-->
+    <string name="growthalbum">成长相册</string>
+    <string name="unlabeled">未标记</string>
+    <string name="labeled">已标记</string>
+    <string name="label">标记</string>
+    <string name="cancel_label">取消标记</string>
+    <string name="edit">编辑</string>
+    <string name="cancel_edit">取消编辑</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="loading">正在加载</string>
+    <string name="save_picture">保存图片</string>
+    <string name="save_picture_path">保存成功，路径：</string>
+    <string name="smart_growthalbum">智能相册</string>
+    <!--End jinlong.zou-->
+
+    <!-- 新UI图标名称6月6日 -->
+    <string name="icon_list_baby_bus">宝宝巴士</string>
+    <string name="icon_list_game">编程游戏</string>
+    <string name="icon_list_scene_study">场景学习</string>
+    <string name="icon_list_grow_album">成长相册</string>
+    <string name="icon_list_tradition_culture">传统文化</string>
+    <string name="icon_list_visitor_pattern">访客模式</string>
+    <string name="icon_list_follow_me">跟我走</string>
+    <string name="icon_list_chinese_story">国语故事</string>
+    <string name="icon_list_chinese_anim">汉语动画</string>
+    <string name="icon_list_picturebook_story">绘本故事</string>
+    <string name="icon_list_oral_practice">口语练习</string>
+    <string name="icon_list_message_remind">留言提醒</string>
+    <string name="icon_list_riddle">谜语</string>
+    <string name="icon_list_other_app">其他应用</string>
+    <string name="icon_list_music">轻音乐</string>
+    <string name="icon_list_face_sign">人脸签到</string>
+    <string name="icon_list_face_recognition">人脸识别</string>
+    <string name="icon_list_scan_read">扫码阅读</string>
+    <string name="icon_list_video_call">视频通话</string>
+    <string name="icon_list_setting_system">系统设置</string>
+    <string name="icon_list_camera">相机</string>
+    <string name="icon_list_english_childsong">英文儿歌</string>
+    <string name="icon_list_english_anim">英语动画</string>
+    <string name="icon_list_english_story">英语故事</string>
+    <string name="icon_list_setting_app">应用设置</string>
+    <string name="icon_list_online_service">在线客服</string>
+    <string name="icon_list_online_classroom">在线课堂</string>
+    <string name="icon_list_smart_remind">智能提醒</string>
+    <string name="icon_list_chinese_song">中文儿歌</string>
+    <string name="icon_list_video">视频</string>
+    <string name="icon_list_album">相册</string>
+    <string name="icon_list_del">删除</string>
+    <string name="icon_list_select">全选</string>
+
+</resources>

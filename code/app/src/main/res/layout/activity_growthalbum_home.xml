@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/header_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/slideshow_margin"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/back_button_icon_size"
+            android:layout_height="@dimen/back_button_icon_size"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_button_selector" />
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="@string/growthalbum"
+            android:textColor="@drawable/back_button_text_selector"
+            android:textSize="@dimen/function_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/net_album_btn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/net_album_btn_state_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/smart_growthalbum"
+            android:textColor="@drawable/net_album_btn_text_color_selector"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/local_album_btn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/local_album_btn_state_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/growth_record"
+            android:textColor="@drawable/local_albun_btn_text_color_selector"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+</RelativeLayout>

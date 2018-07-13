@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\b0e8b694874a1ab39588423d17849464861250a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5b1ae87dcb8c5a7722f6019f4dd60206ccf9f070">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_068d160e84bc04d4436623cbd8c5109ee94e563c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\da08688df51eacceda092feaa62a0c55270c3ab6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4333ff6274e5149439744c7590543198f34b3de">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_0fbc048811c26e4509de276116a62335f2d9c426.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\e3a887f2e0b3d3b31d93536f870549a6a977fb67\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_9905f89464afc16acc632960625041f5a6ae29f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\52db2ba88ed45344e13f0836664566ff65775df6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da6cfffe09da5bcc9ae02b04554d0a5336fbfabb">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_1eaa234e9371b32f2876aaa5e3604837c496842a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android_project\IbotnCloudPlayer\code\app\libs\exoplayerlib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb87f5f413a8a5ecb343769f0f7c139964155b86">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\exoplayerlib_80dbd8e1f684ad3562c233839d3294b7eace861a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\IbotnCloudPlayer\code\app\libs\exoplayerlib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb87f5f413a8a5ecb343769f0f7c139964155b86">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\transforms\dex\debug\folders\1000\2\exoplayerlib_80dbd8e1f684ad3562c233839d3294b7eace861a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\01bfa30ee8a2a1cc502b7ba7a436c4ad3ce6c5b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="40e5cb8708fc25fe57cb403cc82e9ef98376b648">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_c7efe903162d55dbda1700b445c13d81183493f2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\IbotnCloudPlayer\code\app\libs\AMap_Location_V3.3.0_20170118.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="299ccce875c1bbd5eb2802923ae89946e22b7ee6">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Location_V3.3.0_20170118_149a6cbbe1d03188da4e6e4554078ad754f437c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\833fba8cde58a271c295bec68dc7032749ba94c9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_29705c61c24fdb234a780e03dcf9ce76eba19144.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\3e68470ffd359e67e2af568b63a1c027f910b1f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a540784239c611ea490593e2053a5e2890675c68">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_0b67d196938406e5a301fd9880bf6d85597160bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\95566f4f77391fb3b9a36bc7e0c2263c72f01e99\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85ba4b204e5ee55b4e5e8995c5d143447b851fb4">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_7224522f6334f587f0cc2643617ed330cf3b8e3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SDK\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_85f1a6cd8161dc03c6fa15d000a7580265c10fe0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\87d74f8f849fc06874bedd3219507fb63d3e3414\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_eb2d71b690cf29f380c8eb48666e04e7ab4cf522.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\39633a7eb03882b45f097b267bddc128946b9d8b\output\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_46a249972e0c543cd3cf31df1cf2ee228d9d3098.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android_project\IbotnCloudPlayer\code\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="880cd992c8a58df78049224f41db9994186e4142">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_0d8d63727044bad86e3570041cbe6dd5e2051ebe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\ceb9ed3b78951ae32f76fc48e7730bd861700194\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_493a19d2bb30c92b2375efc7ce7b6fdf6f678a58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\938a56006776c53030b092d5b927b99005763a35\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="145da27a459a63ea0c4e318930365cf0a8b8e891">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_b07cf61e284243aeb67a9e8f2266c7c4d8cb7631.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\b08d9b2aa71d1e27dc3e8063c823172fdd91a43e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="155fef2600f48631a9e9665c0873743b6d24e324">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_ce2a677956cb10ce694c6c06c824f5be571a6c89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android_project\IbotnCloudPlayer\code\app\libs\AMap_Location_V3.3.0_20170118.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="299ccce875c1bbd5eb2802923ae89946e22b7ee6">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\AMap_Location_V3.3.0_20170118_149a6cbbe1d03188da4e6e4554078ad754f437c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\fa1aacb4b2f25fd7a2664a99eef50df26dd5f64a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e346707e4770db216049a532ab3eb5e317cf82a">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_c28eb621de6212fd0ccf7f0ca1eae5a1bd26ecd8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\IbotnCloudPlayer\code\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="880cd992c8a58df78049224f41db9994186e4142">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_0d8d63727044bad86e3570041cbe6dd5e2051ebe\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\033211c3d780becaaf87084a27155bbf37e10fcf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c9a86e6bc8300fc00c191949ac61a2f7165e35c7">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_a70972cd46e13b9968c2d1e917725f6dc93fc177.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\39633a7eb03882b45f097b267bddc128946b9d8b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_c34fa538b900579bb8341c6c5d45cb1142fec683.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\fc0188dfc6fde8ab39c701404eaeb2c77c25f5d6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4fbaa84da04e25bb7812592814026101d20dbc91">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_48b67620bebb4e900efb9f8a82d24ba80f941eec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\2159fa512f1c5a11ab324a96179a9ea26317321d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dc083d4004dfb652249a14160db55cc55cd922bc">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_fd58a7a1b71ac19afba0f75b3f412bf76d74b7e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android_project\IbotnCloudPlayer\code\app\libs\playersdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73d5acca2d090291bf407c4915b4369902b12621">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\playersdk_59678debf2bd198d0de50bfc0ed91c8d5a2af280.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6de9e36223a4162acf3e9a35eb5b2fd87d749b43">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ee363071c1d46ada9335b8d08b00379d50e3edbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\IbotnCloudPlayer\code\app\libs\playersdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73d5acca2d090291bf407c4915b4369902b12621">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\transforms\dex\debug\folders\1000\2\playersdk_59678debf2bd198d0de50bfc0ed91c8d5a2af280\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d731292fbb64bb1f7c7f93e3a900ea857d173930\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android_project\IbotnCloudPlayer\code\library_AndroidPullToRefresh\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="35bd5f34c0d2c5d733cf8a30aa4b842130733d02">
+        <dex dex="D:\android_project\IbotnCloudPlayer\code\app\build\intermediates\pre-dexed\debug\classes_dcca94b2f3eb786dfe1d028d04958b057f5c9f27.jar" />
+    </item>
+
+</items>

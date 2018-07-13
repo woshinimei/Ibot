@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chinese_anim_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:background="@drawable/chinese_anim_top">
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/btn_back"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/icon_list_tradition_culture"
+            android:textColor="#ffffff"
+            android:textSize="44sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ListView
+            android:id="@+id/lv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="60dp"
+            android:paddingBottom="30dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:scrollbarThumbVertical="@drawable/scrollbar_btn"
+            android:scrollbarTrackVertical="@drawable/scrollbar_bg"
+            android:scrollbars="none"
+            android:visibility="gone"></ListView>
+
+        <com.infomax.ibotncloudplayer.view.ScrollSlidingBlock
+
+            android:id="@+id/myscrollbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/scrollbar_bg"
+            android:visibility="gone"
+            app:imgRes="@drawable/scrollbar_btn"
+            app:imgWidth="@dimen/dp_30" />
+
+        <TextView
+            android:id="@+id/tv_none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/culture_wihte_bg"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/none_bg"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:paddingTop="20dp"
+            android:text="暂无数据!"
+            android:textColor="#999999"
+            android:textSize="20sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

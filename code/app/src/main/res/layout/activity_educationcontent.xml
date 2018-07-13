@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.EducationContentActivity" >
+
+    <LinearLayout
+        android:id="@+id/back_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/slideshow_margin"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/back_button_icon_size"
+            android:layout_height="@dimen/back_button_icon_size"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_button_selector" />
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="@string/education_dontent"
+            android:textColor="@drawable/back_button_text_selector"
+            android:textSize="@dimen/function_text_size" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_audio"
+            android:layout_width="@dimen/main_function_icon_container_width"
+            android:layout_height="@dimen/main_function_icon_size"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_audio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_music_bg" />
+
+            <TextView
+                android:id="@+id/tv_audio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/audio"
+                android:textColor="@drawable/main_function_text_selector"
+                android:textSize="@dimen/function_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_video"
+            android:layout_width="@dimen/main_function_icon_container_width"
+            android:layout_height="@dimen/main_function_icon_size"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/local_video_selector" />
+
+            <TextView
+                android:id="@+id/rb_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/text_video"
+                android:textColor="@drawable/main_function_text_selector"
+                android:textSize="@dimen/function_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_act_more_cloud_video_container"
+            android:layout_width="@dimen/main_function_icon_container_width"
+            android:layout_height="@dimen/main_function_icon_size"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_cloud_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/live_video_selector" />
+
+            <TextView
+                android:id="@+id/tv_cloud_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/cloud_video"
+                android:textColor="@drawable/main_function_text_selector"
+                android:textSize="@dimen/function_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_act_ec_game_wawalu"
+            android:layout_width="@dimen/main_function_icon_container_width"
+            android:layout_height="@dimen/main_function_icon_size"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_wawalu_bg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/text_game_wawalu"
+                android:textColor="@drawable/main_function_text_selector"
+                android:textSize="@dimen/function_text_size" />
+        </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageView
+        android:id="@+id/iv_return_home"
+        android:layout_width="@dimen/setting_button_icon_size"
+        android:layout_height="@dimen/setting_button_icon_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/back_button_icon_margin"
+        android:scaleType="fitCenter"
+        android:src="@drawable/return_home_button_selector" />
+
+</RelativeLayout>

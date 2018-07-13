@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chinese_anim_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:background="@drawable/chinese_anim_top">
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/btn_back"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/babybus"
+            android:textColor="#ffffff"
+            android:textSize="44sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/game_left_bg">
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <RadioButton
+
+                    android:id="@+id/rb0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/game_btn_rb"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/game_btn_rb_left"
+                    android:drawablePadding="38dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="13dp"
+                    android:text="0-2周岁"
+                    android:textColor="@color/game_rb_color"
+                    android:textSize="28sp" />
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/game_btn_rb"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/game_btn_rb_left"
+                    android:drawablePadding="38dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="13dp"
+                    android:text="2-4周岁"
+                    android:textColor="@color/game_rb_color"
+                    android:textSize="28sp" />
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/game_btn_rb"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/game_btn_rb_left"
+                    android:drawablePadding="38dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="13dp"
+                    android:text="4-5周岁"
+                    android:textColor="@color/game_rb_color"
+                    android:textSize="28sp" />
+
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/game_btn_rb"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/game_btn_rb_left"
+                    android:drawablePadding="38dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="13dp"
+                    android:text="5+周岁"
+                    android:textColor="@color/game_rb_color"
+                    android:textSize="28sp" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/gv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:numColumns="3"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbarThumbVertical="@drawable/scrollbar_btn"
+            android:scrollbarTrackVertical="@drawable/scrollbar_bg"
+            android:verticalSpacing="8dp"></GridView>
+
+    </LinearLayout>
+</LinearLayout>
